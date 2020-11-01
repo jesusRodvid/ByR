@@ -5,10 +5,10 @@ import javafx.stage.Stage;
 
 public class App extends Application {
 
-	private ByRController byrController;
+	private Controller byrController;
 
 	public void start(Stage primaryStage) throws Exception {
-		byrController = new ByRController();
+		byrController = new Controller();
 		
 		Scene scene = new Scene(byrController.getView(), 640, 480);
 		

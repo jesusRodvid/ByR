@@ -2,10 +2,10 @@ package dad.primertristre.byr;
 
 import javafx.scene.Parent;
 
-public class ByRController {
+public class Controller {
 
 	View view = new View();
-	public ByRController() {
+	public Controller() {
 		
 	}
 	
